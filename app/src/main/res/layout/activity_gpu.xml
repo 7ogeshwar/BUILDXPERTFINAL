@@ -154,7 +154,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_marginLeft="65dp"
+                            android:layout_marginLeft="95dp"
                             android:src="@drawable/geforce"
                             android:contentDescription="GPU Image"
                             android:layout_gravity="end" />
@@ -218,7 +218,7 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:layout_marginLeft="45dp"
+                            android:layout_marginLeft="55dp"
                             android:src="@drawable/geforce"
                             android:contentDescription="GPU Image"
                             android:layout_gravity="end" />
@@ -239,41 +239,185 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
+                        android:orientation="horizontal"
                         android:padding="16dp">
 
-                        <TextView
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="GPU Model 4"
-                            android:textColor="@color/black"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Description of GPU Model 4"
-                            android:textColor="@color/black"
-                            android:layout_marginTop="8dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="GIGABYTE NVIDIA RTX "
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
 
-                        <Button
-                            android:id="@+id/button_add_to_cart_4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Add to Cart"
-                            android:backgroundTint="@color/black"
-                            android:textColor="@color/white"
-                            android:layout_marginTop="8dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Starting at RS.33,800"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Aero white  OC 8GB GDDR6 "
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <Button
+                                android:id="@+id/button_add_to_cart_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Add to Cart"
+                                android:backgroundTint="@color/black"
+                                android:textColor="@color/white"
+                                android:layout_marginTop="8dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="end"
+                            android:layout_marginLeft="55dp"
+                            android:contentDescription="GPU Image"
+                            android:src="@drawable/geforce" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <!-- GPU Item 5 -->
-                <!-- Repeat similarly -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
 
-                <!-- GPU Item 6 -->
-                <!-- Repeat similarly -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ASRock AMD RADEON RX6600 "
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Starting at RS.33,650"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CLD 8 GB GDDR6"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <Button
+                                android:id="@+id/button_add_to_cart_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Add to Cart"
+                                android:backgroundTint="@color/black"
+                                android:textColor="@color/white"
+                                android:layout_marginTop="8dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="45dp"
+                            android:src="@drawable/geforce"
+                            android:contentDescription="GPU Image"
+                            android:layout_gravity="end" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ZOTAC NVIDIA RTX 3060  "
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Starting at RS.36,650"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Twin Edge 12 GB GDDR6"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <Button
+                                android:id="@+id/button_add_to_cart_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Add to Cart"
+                                android:backgroundTint="@color/black"
+                                android:textColor="@color/white"
+                                android:layout_marginTop="8dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="45dp"
+                            android:src="@drawable/geforce"
+                            android:contentDescription="GPU Image"
+                            android:layout_gravity="end" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
                 <!-- GPU Item 7 -->
                 <!-- Repeat similarly -->

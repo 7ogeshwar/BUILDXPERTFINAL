@@ -58,6 +58,7 @@ public class gpu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 generateInvoice();
+
                 // Navigate to CartActivity after generating invoice
                 Intent intent = new Intent(gpu.this, CartActivity.class);
                 startActivity(intent);
