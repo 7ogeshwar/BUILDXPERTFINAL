@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "578490149510",
+    "firebase_url": "https://buildxpert-7d7ea-default-rtdb.firebaseio.com",
+    "project_id": "buildxpert-7d7ea",
+    "storage_bucket": "buildxpert-7d7ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578490149510:android:bb6f0ba122d3d7b8ee3f07",
+        "android_client_info": {
+          "package_name": "com.example.buidxpert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsm2BrtmUgHcxNP2T2JzZXp-DYndYp80k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578490149510:android:0c5020cf836658c0ee3f07",
+        "android_client_info": {
+          "package_name": "com.example.buildxpert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsm2BrtmUgHcxNP2T2JzZXp-DYndYp80k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

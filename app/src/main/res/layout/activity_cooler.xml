@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".cpu">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Bottom App Bar -->
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Description at the top -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nico"
+                    android:padding="5dp"
+                    android:text="What are coolers for in PC?" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:fontFamily="@font/nico"
+                    android:text="Air coolers are quite good at relocating heat away from the CPU, but keep in mind that heat is then dispersed into the case. This can raise the ambient temperature of the system overall. Liquid coolers do a better job of relocating that heat outside of the system via the fans on the radiator." />
+
+                <!-- List of CPU Items -->
+                <!-- Repeat this block for each CPU item (total 15 items) -->
+
+                <!-- CPU Item 1 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- Repeat similarly for items 2 to 15 -->
+
+                <!-- Coolers Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nico"
+                    android:padding="5dp"
+                    android:text="PC Coolers" />
+
+                <!-- Cooler Item 1 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Corsair iCUE H100i RGB Pro XT"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/nico"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Starting at Rs. 12,000"
+                                android:fontFamily="@font/nico"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <Button
+                                android:id="@+id/button_add_to_cart_cooler_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Add to Cart"
+                                android:fontFamily="@font/nico"
+                                android:backgroundTint="@color/black"
+                                android:textColor="@color/white"
+                                android:layout_marginTop="8dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/cccc"
+                            android:contentDescription="Cooler Image"
+                            android:layout_gravity="end" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Cooler Item 2 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NZXT Kraken X63"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/nico"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Starting at Rs. 14,000"
+                                android:fontFamily="@font/nico"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <Button
+                                android:id="@+id/button_add_to_cart_cooler_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Add to Cart"
+                                android:fontFamily="@font/nico"
+                                android:backgroundTint="@color/black"
+                                android:textColor="@color/white"
+                                android:layout_marginTop="8dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/cc"
+                            android:contentDescription="Cooler Image"
+                            android:layout_gravity="end" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Cooler Item 3 -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cooler Master MasterLiquid ML240L"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/nico"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Starting at Rs. 8,000"
+                                android:fontFamily="@font/nico"
+                                android:textColor="@color/black"
+                                android:layout_marginTop="8dp" />
+
+                            <Button
+                                android:id="@+id/button_add_to_cart_cooler_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Add to Cart"
+                                android:fontFamily="@font/nico"
+                                android:backgroundTint="@color/black"
+                                android:textColor="@color/white"
+                                android:layout_marginTop="8dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/ccc"
+                            android:contentDescription="Cooler Image"
+                            android:layout_gravity="end" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Add more cooler items as needed -->
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

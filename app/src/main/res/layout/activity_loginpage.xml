@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+
+
+    android:padding="16dp"
+    tools:context=".Loginpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="332dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/roundedcorner"
+
+            android:hint="@string/EMAIL"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#4DD9F8"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/nico"
+            android:autofillHints="" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordinput"
+            android:layout_width="332dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorner"
+            android:hint="@string/pas"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/nico"
+            android:backgroundTint="#4DD9F8"
+            android:textSize="20sp"
+            android:autofillHints="" />
+
+
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="18dp"
+            android:text="@string/log"
+            android:textColor="#000000"
+            android:fontFamily="@font/nico"
+            android:backgroundTint="#8AF436"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/sinupredirecttext"
+            android:text="@string/soc1"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nico"
+            android:textSize="18sp"
+
+            android:layout_margin="32dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="243dp"
+        android:layout_height="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/homelogo"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+

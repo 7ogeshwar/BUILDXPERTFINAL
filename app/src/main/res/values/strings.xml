@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">buidXpert</string>
+    <string name="BUILDXPERT">buidXpert</string>
+    <string name="EMAIL">Email</string>
+    <string name="pas">Password</string>
+    <string name="reg">Register</string>
+    <string name="soc">sign in login</string>
+    <string name="soc1">Go to register</string>
+    <string name="log">Login</string>
+    <string name="logout">logout</string>
+    <string name="gpudetails">A graphics processing unit (GPU) is an electronic circuit that can perform mathematical calculations at high speed. Computing tasks like graphics rendering, machine learning (ML), and video editing require the application of similar mathematical operations on a large dataset.</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Registerpage">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="332dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:background="@drawable/roundedcorner"
+            android:hint="@string/EMAIL"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="#77CFD3"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/nico"
+            android:textSize="20sp" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="332dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:background="@drawable/roundedcorner"
+            android:hint="@string/pas"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/nico"
+            android:backgroundTint="#77CFD3"
+            android:textSize="20sp" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#46F428"
+            android:padding="18dp"
+            android:text="@string/reg"
+            android:textColor="#000000"
+            android:fontFamily="@font/nico"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/loginredirecttext"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_margin="32dp"
+            android:text="@string/soc"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nico"
+
+
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="243dp"
+        android:layout_height="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/backlogo"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
